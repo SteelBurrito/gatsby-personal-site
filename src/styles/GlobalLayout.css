@@ -1,0 +1,22 @@
+/* .global {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(34, 125, 170) 0%,
+    rgb(81, 172, 205) 100%
+  );
+} */
+.global {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(34, 125, 170) 0%,
+    rgb(81, 172, 205) 100%
+  );
+}
