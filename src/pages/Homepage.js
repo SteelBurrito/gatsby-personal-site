@@ -18,14 +18,18 @@ class Homepage extends React.Component {
     );
     const footerIcons = (
       <div className="footer-icons">
-        <a
-          className="far fa-envelope fa-2x"
-          href="mailto:antouniokevin@gmail.com"
-        />
-        <a
-          className="fab fa-github fa-2x"
-          href="https://github.com/SteelBurrito"
-        />
+        <div className="icon">
+          <a
+            className="far fa-envelope fa-2x"
+            href="mailto:antouniokevin@gmail.com"
+          />
+        </div>
+        <div className="icon">
+          <a
+            className="fab fa-github fa-2x"
+            href="https://github.com/SteelBurrito"
+          />
+        </div>
       </div>
     );
     return (
