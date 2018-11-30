@@ -13,6 +13,7 @@
     "gatsby-plugin-typography": "^2.2.2",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
+    "react-icons": "^3.2.2",
     "react-transition-group": "1.x",
     "react-typography": "^0.16.13",
     "typography": "^0.16.17"

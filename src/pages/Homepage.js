@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/Homepage.css";
 import { CSSTransitionGroup } from "react-transition-group";
+import { GoMarkGithub } from "react-icons/go";
+import { MdEmail } from "react-icons/md";
 
 class Homepage extends React.Component {
   componentDidMount() {}
@@ -19,16 +21,14 @@ class Homepage extends React.Component {
     const footerIcons = (
       <div className="footer-icons">
         <div className="icon">
-          <a
-            className="far fa-envelope fa-2x"
-            href="mailto:antouniokevin@gmail.com"
-          />
+          <a href="mailto:antouniokevin@gmail.com">
+            <MdEmail size={40} />
+          </a>
         </div>
         <div className="icon">
-          <a
-            className="fab fa-github fa-2x"
-            href="https://github.com/SteelBurrito"
-          />
+          <a href="https://github.com/SteelBurrito">
+            <GoMarkGithub size={40} />
+          </a>
         </div>
       </div>
     );
