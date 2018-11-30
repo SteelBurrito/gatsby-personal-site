@@ -9,7 +9,7 @@ class Homepage extends React.Component {
     const heading = (
       <div className="heading">
         <h1>kevdev.website</h1>
-        <p>Personal page by Antonio Kevin Christophorus</p>
+        <p>A Personal page by Antonio Kevin Christophorus</p>
       </div>
     );
     const menu = (
