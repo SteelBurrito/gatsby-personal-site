@@ -1,0 +1,15 @@
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.menu p {
+  color: white;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu p:hover {
+  text-decoration: underline;
+}

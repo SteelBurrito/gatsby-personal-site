@@ -9,14 +9,23 @@ class Homepage extends React.Component {
     const heading = (
       <div className="heading">
         <h1>kevdev.website</h1>
-        <p>A Personal page by Antonio Kevin Christophorus</p>
+        <p>Hello Kevin here! I build websites and useful web applications.</p>
+        <p>
+          I'm looking for employment, and am open to freelance work. I have a
+          few projects, and a resume if you're hiring!
+        </p>
       </div>
     );
-    const menu = (
-      <div className="menu">
-        <p>About me</p>
-        <p>Projects</p>
-        <p>Contact Me</p>
+    const footerIcons = (
+      <div className="footer-icons">
+        <a
+          className="far fa-envelope fa-2x"
+          href="mailto:antouniokevin@gmail.com"
+        />
+        <a
+          className="fab fa-github fa-2x"
+          href="https://github.com/SteelBurrito"
+        />
       </div>
     );
     return (
@@ -29,7 +38,7 @@ class Homepage extends React.Component {
           transitionLeaveTimeout={300}
         >
           {heading}
-          {menu}
+          {footerIcons}
         </CSSTransitionGroup>
       </div>
     );

@@ -27,10 +27,19 @@
 }
 /* Animation styling end */
 
+.homepage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 70%;
+  padding: 10px;
+}
+
 .heading {
   display: flex;
   flex-direction: column;
   width: 100%;
+
   align-items: center;
   justify-content: center;
 }
@@ -47,23 +56,22 @@
 }
 
 .heading p {
-  font-size: 20px;
+  font-size: 23px;
   font-family: sans-serif;
   color: white;
   text-align: center;
+  padding: 5px;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
-.menu {
+.footer-icons {
   display: flex;
   justify-content: space-evenly;
+  padding: 10px;
 }
 
-.menu p {
+.footer-icons a {
   color: white;
   cursor: pointer;
-}
-
-.menu p:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
