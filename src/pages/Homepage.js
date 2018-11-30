@@ -12,16 +12,26 @@ class Homepage extends React.Component {
         <p>Personal page by Antonio Kevin Christophorus</p>
       </div>
     );
+    const menu = (
+      <div className="menu">
+        <p>About me</p>
+        <p>Projects</p>
+        <p>Contact Me</p>
+      </div>
+    );
     return (
-      <CSSTransitionGroup
-        transitionName="fadein"
-        transitionAppear={true}
-        transitionAppearTimeout={500}
-        transitionEnterTimeout={500}
-        transitionLeaveTimeout={300}
-      >
-        {heading}
-      </CSSTransitionGroup>
+      <div className="homepage">
+        <CSSTransitionGroup
+          transitionName="fadein"
+          transitionAppear={true}
+          transitionAppearTimeout={500}
+          transitionEnterTimeout={500}
+          transitionLeaveTimeout={300}
+        >
+          {heading}
+          {menu}
+        </CSSTransitionGroup>
+      </div>
     );
   }
 }

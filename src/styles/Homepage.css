@@ -1,3 +1,32 @@
+/* Animations for the text start*/
+.fadein-enter {
+  opacity: 0.01;
+}
+
+.fadein-enter.fadein-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.fadein-leave {
+  opacity: 1;
+}
+
+.fadein-leave.fadein-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
+
+.fadein-appear {
+  opacity: 0.01;
+}
+
+.fadein-appear.fadein-appear-active {
+  opacity: 1;
+  transition: opacity 0.5s ease-in;
+}
+/* Animation styling end */
+
 .heading {
   display: flex;
   flex-direction: column;
@@ -25,48 +54,16 @@
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
-.fadein-enter {
-  opacity: 0.01;
+.menu {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.fadein-enter.fadein-enter-active {
-  opacity: 1;
-  transition: opacity 500ms ease-in;
+.menu p {
+  color: white;
+  cursor: pointer;
 }
 
-.fadein-leave {
-  opacity: 1;
+.menu p:hover {
+  text-decoration: underline;
 }
-
-.fadein-leave.fadein-leave-active {
-  opacity: 0.01;
-  transition: opacity 300ms ease-in;
-}
-
-.fadein-appear {
-  opacity: 0.01;
-}
-
-.fadein-appear.fadein-appear-active {
-  opacity: 1;
-  transition: opacity 0.5s ease-in;
-}
-
-/* Animations for the text */
-/* .fadein-enter-active {
-  transition: all 0.8s ease;
-}
-
-.fadein-leave-active {
-  transition: all 0.8s cubic-bezier(1, 0.5, 0.8, 1);
-}
-
-.fadein-fade-enter {
-  transform: translateX(10px);
-  opacity: 0;
-}
-
-.fadein-fade-leave-to {
-  transform: translateX(10px);
-  opacity: 0;
-} */
