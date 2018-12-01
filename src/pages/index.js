@@ -1,11 +1,18 @@
 import React from "react";
 import Navigation from "./Navigation";
 import Homepage from "./Homepage";
-import "../styles/GlobalLayout.css";
+import AvatarImage from "./AvatarImage";
+import GlobalLayout from "./GlobalLayout";
 
 export default () => (
-  <div className="global">
+  // <div className="global">
+  //   <Navigation />
+  //   <AvatarImage />
+  //   <Homepage />
+  // </div>
+  <GlobalLayout>
     <Navigation />
+    <AvatarImage />
     <Homepage />
-  </div>
+  </GlobalLayout>
 );

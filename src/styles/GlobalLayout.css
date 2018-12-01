@@ -4,10 +4,89 @@
   align-items: center;
   justify-content: space-between;
   width: 100vw;
-  /* height: 100vh; */
+  height: 100vh;
   background-image: linear-gradient(
     to bottom,
     rgb(34, 125, 170) 0%,
     rgb(81, 172, 205) 100%
   );
+}
+
+@media (min-width: 320px) {
+  .global {
+    height: 100vh;
+  }
+}
+@media (min-width: 360px) {
+  .global {
+    height: 100%;
+  }
+}
+/* @media (min-width: 370px) {
+  .global {
+    height: auto;
+  }
+} */
+@media (min-width: 410px) {
+  .global {
+    height: 100vh;
+  }
+}
+@media (min-width: 481px) {
+  /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
+  .global {
+    height: 100%;
+  }
+}
+@media (min-width: 641px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .global {
+    height: 100vh;
+  }
+}
+@media (min-width: 660px) {
+  .global {
+    height: 100%;
+  }
+}
+@media (min-width: 700px) {
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+  .global {
+    height: 100%;
+  }
+}
+/* Iphone X landscape */
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) {
+  .global {
+    height: auto;
+  }
+}
+
+/* Iphone X portrait */
+@media (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .global {
+    height: 100vh;
+  }
+}
+
+@media (min-width: 760px) {
+  .global {
+    height: 100vh;
+  }
+}
+@media (min-width: 961px) {
+  .global {
+    height: 100vh;
+  }
+}
+@media (min-width: 1025px) {
+  .global {
+    height: 100vh;
+  }
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+  .global {
+    height: 100vh;
+  }
 }
