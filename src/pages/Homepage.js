@@ -16,22 +16,34 @@ class Homepage extends React.Component {
           I'm looking for employment, and am open to freelance work. I have a
           few projects, and a resume if you're hiring!
         </p>
-      </div>
-    );
-    const footerIcons = (
-      <div className="footer-icons">
-        <div className="icon">
-          <a href="mailto:antouniokevin@gmail.com">
-            <MdEmail size={40} />
-          </a>
-        </div>
-        <div className="icon">
-          <a href="https://github.com/SteelBurrito">
-            <GoMarkGithub size={40} />
-          </a>
+        <div className="footer-icons">
+          <div className="icon">
+            <a href="mailto:antouniokevin@gmail.com">
+              <MdEmail size={40} />
+            </a>
+          </div>
+          <div className="icon">
+            <a href="https://github.com/SteelBurrito">
+              <GoMarkGithub size={40} />
+            </a>
+          </div>
         </div>
       </div>
     );
+    // const footerIcons = (
+    //   <div className="footer-icons">
+    //     <div className="icon">
+    //       <a href="mailto:antouniokevin@gmail.com">
+    //         <MdEmail size={40} />
+    //       </a>
+    //     </div>
+    //     <div className="icon">
+    //       <a href="https://github.com/SteelBurrito">
+    //         <GoMarkGithub size={40} />
+    //       </a>
+    //     </div>
+    //   </div>
+    // );
     return (
       <div className="homepage">
         <CSSTransitionGroup
@@ -42,7 +54,6 @@ class Homepage extends React.Component {
           transitionLeaveTimeout={300}
         >
           {heading}
-          {footerIcons}
         </CSSTransitionGroup>
       </div>
     );
