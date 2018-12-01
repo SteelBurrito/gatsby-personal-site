@@ -3,11 +3,17 @@ import "../styles/Homepage.css";
 import { CSSTransitionGroup } from "react-transition-group";
 import { GoMarkGithub } from "react-icons/go";
 import { MdEmail } from "react-icons/md";
+import avatarImage from "../../static/Biggie_Cheese.jpg";
 
 class Homepage extends React.Component {
   componentDidMount() {}
 
   render() {
+    const avatar = (
+      <div className="avatar">
+        <img className="avatar-image" src={avatarImage} />
+      </div>
+    );
     const heading = (
       <div className="heading">
         <h1>kevdev.website</h1>
@@ -41,6 +47,7 @@ class Homepage extends React.Component {
           transitionEnterTimeout={500}
           transitionLeaveTimeout={300}
         >
+          {avatar}
           {heading}
           {footerIcons}
         </CSSTransitionGroup>

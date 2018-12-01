@@ -31,8 +31,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 70%;
+  height: 100%;
   padding: 10px;
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.avatar-image {
+  width: auto;
+  height: auto;
+  border-radius: 10%;
 }
 
 .heading {
@@ -45,8 +57,7 @@
 }
 
 .heading h1 {
-  font: bold 13vw Sans-Serif;
-  padding: 20px 0;
+  font: bold 10vw Sans-Serif;
   color: white;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
     0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
@@ -60,7 +71,7 @@
   font-family: sans-serif;
   color: white;
   text-align: center;
-  padding: 5px;
+  /* padding: 5px; */
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
