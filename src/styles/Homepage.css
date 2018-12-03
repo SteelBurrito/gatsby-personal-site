@@ -12,7 +12,13 @@
 .homepage {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  /* height: 100vh; */
+}
+
+@media (min-height: 750px) {
+  .homepage {
+    height: 100vh;
+  }
 }
 
 .heading {
@@ -24,7 +30,7 @@
 }
 
 .heading h1 {
-  font: bold 10vw Sans-Serif;
+  font: bold 12vw Sans-Serif;
   color: white;
   text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
     0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),

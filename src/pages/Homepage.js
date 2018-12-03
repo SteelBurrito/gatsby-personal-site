@@ -3,6 +3,7 @@ import "../styles/Homepage.css";
 import { CSSTransitionGroup } from "react-transition-group";
 import { GoMarkGithub } from "react-icons/go";
 import { MdEmail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa";
 
 class Homepage extends React.Component {
   componentDidMount() {}
@@ -11,10 +12,13 @@ class Homepage extends React.Component {
     const heading = (
       <div className="heading">
         <h1>kevdev.website</h1>
-        <p>Hello Kevin here! I build websites and useful web applications.</p>
         <p>
-          I'm looking for employment, and am open to freelance work. I have a
-          few projects, and a resume if you're hiring!
+          Hi, Kevin here! Currently based in Australia, I build websites and
+          useful web applications.
+        </p>
+        <p>
+          Just finished with my studies and am open for employment! I have a few
+          projects, and a resume if you're hiring.
         </p>
         <div className="footer-icons">
           <div className="icon">
@@ -25,6 +29,11 @@ class Homepage extends React.Component {
           <div className="icon">
             <a href="https://github.com/SteelBurrito">
               <GoMarkGithub size={40} />
+            </a>
+          </div>
+          <div className="icon">
+            <a href="https://www.linkedin.com/in/antonio-kevin-972512145/">
+              <FaLinkedin size={40} />
             </a>
           </div>
         </div>

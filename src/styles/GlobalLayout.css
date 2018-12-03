@@ -7,3 +7,17 @@
     rgb(81, 172, 205) 100%
   );
 }
+
+.content {
+  height: 100%;
+  padding: 10px;
+}
+
+@media (min-height: 750px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+}
