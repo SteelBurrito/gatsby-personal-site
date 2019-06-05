@@ -1,6 +1,6 @@
 .global {
   width: 100%;
-  height: auto;
+  height: 100vh;
   background-image: linear-gradient(
     to bottom,
     rgb(34, 125, 170) 0%,

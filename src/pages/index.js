@@ -12,7 +12,7 @@ export default () => (
   // </div>
   <GlobalLayout>
     <Navigation />
-    <AvatarImage />
+    {/* <AvatarImage /> */}
     <Homepage />
   </GlobalLayout>
 );

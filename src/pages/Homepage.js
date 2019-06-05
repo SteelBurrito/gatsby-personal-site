@@ -39,20 +39,6 @@ class Homepage extends React.Component {
         </div>
       </div>
     );
-    // const footerIcons = (
-    //   <div className="footer-icons">
-    //     <div className="icon">
-    //       <a href="mailto:antouniokevin@gmail.com">
-    //         <MdEmail size={40} />
-    //       </a>
-    //     </div>
-    //     <div className="icon">
-    //       <a href="https://github.com/SteelBurrito">
-    //         <GoMarkGithub size={40} />
-    //       </a>
-    //     </div>
-    //   </div>
-    // );
     return (
       <div className="homepage">
         <CSSTransitionGroup
